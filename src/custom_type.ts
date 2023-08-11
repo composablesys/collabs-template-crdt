@@ -8,7 +8,7 @@ import {
 
 // Since you're exporting your type for reuse, it's a good
 // idea to expose meaningful events.
-// See the [Events](https://collabs.readthedocs.io/en/latest/advanced/events.html)
+// See CollabEventsRecord (https://collabs.readthedocs.io/en/latest/api/collabs/interfaces/CollabEventsRecord.html)
 // for advice on what events to include.
 export interface PairEventsRecord<T, U> extends CollabEventsRecord {
   FirstSet: VarEvent<T>;

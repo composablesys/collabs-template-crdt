@@ -3,7 +3,7 @@ import { assert } from "chai";
 import { CPair } from "../src";
 import seedrandom = require("seedrandom");
 
-describe("template-custom-type", () => {
+describe("collabs-template-crdt", () => {
   let runtimeGen: TestingRuntimes;
   let alice: CRuntime;
   let bob: CRuntime;

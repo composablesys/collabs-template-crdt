@@ -1,12 +1,14 @@
 # Collabs Custom CRDT Template
 
-**Template for a library exporting a custom Collabs collaborative type.**
+**Template for a library exporting a custom Collabs CRDT.**
 
-This template demonstrates how to define a custom Collabs collaborative type and export it for reuse (e.g., as an npm package). It requires nothing fancy: you write the type, then export it. See [src/custom_type.ts](./src/custom_type.ts).
+This template demonstrates how to define a custom Collab (collaborative data structure / CRDT) and export it for reuse.
 
-[test/custom_type.test.ts](./test/custom_type.test.ts) shows how to test your type using [TestingRuntimes](https://collabs.readthedocs.io/en/latest/api/collabs/classes/TestingRuntimes.html).
+See [src/custom_type.ts](./src/custom_type.ts).
 
-The rest of this template is a (bare-bones) TypeScript library setup. For a real project, you'll probably want to use something more substantial like [typescript-starter](https://github.com/bitjson/typescript-starter).
+[test/custom_type.test.ts](./test/custom_type.test.ts) lets you test your Collab using [TestingRuntimes](https://collabs.readthedocs.io/en/latest/api/collabs/classes/TestingRuntimes.html).
+
+The rest of this template is a (basic) TypeScript library setup.
 
 ## Custom messages
 
